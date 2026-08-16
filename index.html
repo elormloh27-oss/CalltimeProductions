@@ -7,8 +7,15 @@
   <link rel="stylesheet" href="style.css">
 
   <script src="https://kit.fontawesome.com/694e2748be.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
+  <div class="page-container">
     <header>
       <nav class="navbar" role="navigation" aria-label="Main Navigation">
         <div class="navbar_container">
@@ -20,8 +27,9 @@
             <li class="navbar_item">
               <a href="/ourwork.html" class="navbar_links">Our Work</a>
             </li>
-             <li class="navbar_item">
-              <a href="/about.html" class="navbar_links">About</a>
+            
+            <li class="navbar_item">
+              <a href="/about.html" class="navbar_links">About Us</a>
             </li>
             <li class="navbar_btn mobile">
               <a href="/contact.html" class="button">Contact</a>
@@ -34,31 +42,149 @@
           </div>
 
           <button class="navbar_toggle" 
-           id="mobile-menu"
-           aria-label="Togglge Navigation" 
-           aria-expanded="false">
+            id="mobile-menu"
+            aria-label="Togglge Navigation" 
+            aria-expanded="false">
           <i class="fa-solid fa-bars"></i>
           </button>
         </div>
       </nav>
     </header>
+    <main class="content-wrap">
     <section class="showcase">
-      <video src="download (3).webm" muted loop autoplay></video>
-
       <div class="overlay"></div>
-
+      <video src="download (3).webm" muted loop autoplay></video>
       <div class="text">
         <h2>Never stop</h2>
-        <h3>Expolring the world</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Reprehenderit voluptas, tempore alias commodi beatae expedita
-            repellendus facilis autem cum officia.</p>
-            <a href="#">Explore</a>
+        <h3>Bringing stories to life</h3>
+        <p>We are a film production company based in Accra, Ghana. Our 
+          goal, to work with great
+           storytellers and bring your
+            visions to life.</p>
+            <P><i>Come let us make your visions a reality!</i></P>
+            <a href="/contact.html">Contact Us</a>
       </div>
       <ul class="social">
-        <li><img src="" alt=""></li>
+        <li><a href="https://youtube.com/@calltimeproductions?si=zxhG24pyptlJ3HtF">
+          <img src="youtube.png" alt="" class="facebook"></a>
+        </li>
+        <li><a href="https://www.instagram.com/calltimeproductionss?igsh=aHhsejZ2RZYZQ5">
+          <img src="instagram.png" alt="" class="instagram"></a>
+        </li>
       </ul>
     </section>
+
+
+      <div class="ct-chip-marquee-wrap">
+        <h3 class="ct-marquee-heading">Companies Who Trust Us</h3>
+        <div class="ct-chip-marquee">
+          
+          <div class="ct-chip">MICROSOFT</div>
+          <div class="ct-chip">APPLE</div>
+          <div class="ct-chip">PUMA</div>
+          <div class="ct-chip">BBC</div>
+          <div class="ct-chip">GLO</div>
+          <div class="ct-chip">TELECEL</div>
+          <div class="ct-chip">SPACE &amp; SCIENCE</div>
+          
+          <div class="ct-chip">MICROSOFT</div>
+          <div class="ct-chip">APPLE</div>
+          <div class="ct-chip">PUMA</div>
+          <div class="ct-chip">BBC</div>
+          <div class="ct-chip">GLO</div>
+          <div class="ct-chip">TELECEL</div>
+          <div class="ct-chip">SPACE &amp; SCIENCE</div>
+        </div>
+      </div>
+
+      <div class="ct-intro">
+        <div>
+          <h2 class="ct-title">CallTime Productions makes films that come from West Africa and travel everywhere else.</h2>
+        </div>
+        <div class="ct-intro-text">
+          <p>We're a film and commercial production company based in Accra. Our team runs projects from first script through festival delivery, working across narrative film, documentary, and branded content for local and international clients.</p>
+          <button class="ct-btn-primary">View Our Work</button>
+        </div>
+      </div>
+
+      <!-- Video section with your URL -->
+<section class="ct-video-section">
+  <div class="ct-video-left">
+    <div class="video-wrapper">
+      <button class="video-facade" data-src="https://www.youtube.com/embed/uUtsguaGjbY" aria-label="Play Video">
+      <img 
+        src="https://img.youtube.com/vi/uUtsguaGjbY/maxresdefault.jpg" 
+        alt="Google Trader Flash Mobs, Ghana" 
+        loading="lazy" 
+        decoding="async"
+      />
+        <div class="play-button"></div>
+      </button>
+    </div>
+  </div>
+
+  <div class="ct-video-right">
+    <h3>Behind the Scenes: Accra</h3>
+    <p>
+      A glimpse into our documentary shoot in the heart of Accra.
+      From the bustling markets to the serene coastline, see how we capture
+      the stories that define West Africa.
+    </p>
+    <p>
+      This is just one example of how we bring authentic narratives to life
+      with a local crew and global standards.
+    </p>
+    <a href="/our-work.html" class="ct-btn-secondary">View Our Work</a>
+  </div>
+</section>
+
+    </main>
+
+    <footer>
+      <div class="row">
+        <div class="footer-column">
+          <img src="logo.png" class="logo_footer">
+        </div>
+        <div class="footer-column">
+          <h3>Office</h3>
+          <p>Accra, Ghana</p>
+          <li><a href="tel:+233246933339">0246 933 339</a></li>
+          <li><a href="tel:+233257311097">0257 311 097</a></li>
+          <li><a href="tel:+233537010720">0537 010 720</a></li>
+          <li><a href="mailto:info@calltimeproductions.com">info@calltimeproductions.com</a></li>
+          <li><a href="mailto:calltimeproductions20@gmail.com">calltimeproductions20@gmail.com</a></li>
+        </div>
+        <div class="footer-column">
+          <h3>Links</h3>
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Our Work</a></li>
+            <li><a href="">About Us</a></li>
+          </ul>
+          <ul class="social2">
+            <li><a href="https://youtube.com/@calltimeproductions?si=zxhG24pyptlJ3HtF">
+              <img src="youtube.png" alt="" class="facebook"></a>
+            </li>
+            <li><a href="https://www.instagram.com/calltimeproductionss?igsh=aHhsejZ2RZYZQ5">
+                <img src="instagram.png" alt="" class="instagram"></a>
+            </li>
+          </ul>
+        </div>
+      <div class="footer-column">
+        <h3>Work With Us</h3>
+        
+        <form action="https://formspree.io" method="POST">
+        <input type="text" name="fullname" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="E-mail" required />
+        <textarea name="message" placeholder="Your great vision" required></textarea>
+        <button type="submit">Submit</button>
+        </form>
+      </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+    
   </body>
   <script src="app.js"></script>
 </html>
